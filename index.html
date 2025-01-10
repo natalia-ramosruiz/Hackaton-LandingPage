@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genefitness</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="pie.css">
 </head>
 <body>
     <header>
         <h1>Genefitness</h1>
     </header>
 
-    <nav>
+    <nav class="degradado-nav ">
         <a href="#Inicio">Inicio</a>
         <a href="#Football">Fútbol</a>
         <a href="#Yoga">Yoga</a>
         <a href="#Gym">Gym</a>
         <a href="#Tennis">Tennis</a>
         <a href="#Aboutus">Sobre Nosotros</a>
+        <a class="position-absolute top-5 end-0" href=" " ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAABU0lEQVR4nLWULUtEQRSGH0VQw4IGi3GLiM2w+AN2NRkUiz9ALBbBomXBZtSqxWB3gwaDgtFgW5uwmMTgF4ofq1658l64LHuZL+eFA3de5pxn5tyZAWgBSS4+gSawyD+r1QHK4geoElF9QF2wYyJrSC38AEqxYWfa1Vxs0JpAu7FB4wK1ge+CA5NYxA0wbYJdBwCSXJyaQNuaeAEM56Iiv1IwzmJV/okJNKOJaesmgbKiJr9WMM6iKX/ZBOoHngPbdgsMYqFDJZw77uhK3jqWWlLCm06iDWhe4yddfiuN6t3zadsWjrpU4pHFjmb1/a5FOmlTyY/AiOF4H+h7Dw9NObbsCxjzAfUCd5aQV2CDAO2rUFARG1UFegEWgAEiasfhPz0AE76gHmBFt75tAN2HgNC9aehpKlv43mrkVp0WNfneyh7ZzoJFvrfStqSFurWum/+nX1T50RNLTOBiAAAAAElFTkSuQmCC" alt="shopping-cart"></a>
+
     </nav>
 
     <section id="inicio">
@@ -46,12 +50,90 @@
     </section>
 
     <section id="#Aboutus">
-        <h2>Flora</h2>
-        <p>Descripción de la diversidad de plantas en la región.</p>
+        <h2 class = "main-title"> ¿Quiénes Somos? </h2>
+        <p>
+            En generationFitnes, somos un equipo apasionado para ayudarte a alcanzar tu máximo potencial deportivo.
+            Combinamos nuestra experiencia en tecnología con nuestro amor por el deporte para ofrecerte una plataforma donde puedes
+            encontrar todo lo que necesitas para practicar tus deportes favoritos.
+            Nos especializamos en una amplia gama de accesorios y productos diseñados específicamente para deportes como fútbol,
+            yoga, gimnasio, tenis y voleibol que mejoren tu rendimiento y te mantengan cómodo y seguro.
+            ¡Descubre lo mejor en accesorios deportivos con GenerationFitnes y lleva tu pasión al siguiente nivel!
+
+        </p>
+        <br>
+        <br>
+        <div class="team-section">
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="pictures/nacho.jpeg" alt="jose" class="member-photo imagen-rebote">
+                    <h5 class="card-title">José Castañeda</h5>
+                    <p>
+                        José es un desarrollador apasionado con experiencia en Java, HTML, CSS, y Bootstrap. Su conocimiento en Python y SQL le permite crear soluciones completas, desde el frontend hasta la gestión de bases de datos, siempre buscando mejorar sus habilidades.                    </p>
+                </div>
+                <div class="team-member">
+                    <img src="pictures/angie.jpg" alt="Angie" class="member-photo imagen-rebote">
+                    <h5 class="card-title">Angie Barón</h5>
+                    <p>
+                        Angie tiene experiencia en Java, HTML, CSS y Bootstrap. Su enfoque es desarrollar interfaces web atractivas y funcionales, y combinar sus conocimientos de Python y SQL para crear aplicaciones eficientes y bien estructuradas.                    </p>
+                </div>
+                <div class="team-member">
+                    <img src="pictures/kathe.jpeg" alt="Kathe" class="member-photo imagen-rebote">
+                    <h5 class="card-title">Katherinne Cardenas</h5>
+                    <p>
+                        Katherinne es una desarrolladora entusiasta con habilidades en Java, HTML, CSS, Bootstrap y Python. Se dedica a crear soluciones completas, combinando su conocimiento de bases de datos SQL para optimizar el rendimiento de las aplicaciones web.                </div>
+            </div>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+                <div class="team-member">
+                    <img src="pictures/nata.jpeg" alt="nata" class="member-photo ">
+                    <h5 class="card-title">Natalia Ramos</h5>
+                    <p>
+                        Natalia tiene un fuerte enfoque en Java, HTML, CSS y Bootstrap, y está aprendiendo continuamente sobre Python y SQL. Se especializa en crear interfaces atractivas y aplicaciones bien estructuradas con un buen rendimiento en bases de datos.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div class="team-member">
+                    <img src="pictures/stepha.jpeg" alt="stepha" class="member-photo">
+                    <h5 class="card-title">Stephanie Cruz</h5>
+                    <p>
+                        Stephanie maneja Java, HTML, CSS y Bootstrap, con experiencia en la creación de aplicaciones web responsivas. Su conocimiento en Python y SQL le permite desarrollar tanto el frontend como el backend de proyectos completos.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
     </section>
 
+    <a href="https://wa.me/573107828747" class="whatsapp-icon">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_j6zKHu8BEYzvw9sK3O5kVj2jE5xA0NNdYw&s" alt="WhatsApp"
+            style="width: 50px; height: 50px;">
+    </a>
     <footer>
-        <p>&copy; 2023 Biodiversidad en la Región. Todos los derechos reservados.</p>
+        <div class="fixed-bottom text-dark text-center py-3 degradado-pie">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <span class="d-inline-block">🔥 @2025. ¡Envíos gratis después de $ 200.000 pesos! 🔥</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span class="d-inline-block">Contactanos : 📞 +57 1234567890, 📧 Genefit@gmail.com</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span class="d-inline-block"> 🎾@2025. ¡GenerationFitt! ⚽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <!---Haces con bootstrap cambias color centra el texto
+    La única excepción son los carruseles de reproducción 
+    automática con el data-bs-ride="carousel"atributo, 
+    ya que se inicializan automáticamente al cargar la página. 
+    Si usa carruseles de reproducción automática con el atributo de datos-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
