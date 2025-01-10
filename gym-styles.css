@@ -1,0 +1,38 @@
+.gym-products {
+    display: grid; /* Crea un diseño de cuadrícula para los productos */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta las columnas automáticamente */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.product-card {
+    text-align: center; /* Centra el contenido de cada tarjeta */
+    background-color: #fff; /* Fondo blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s ease-in-out; /* Efecto suave al hacer hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Amplía ligeramente la tarjeta al pasar el mouse */
+}
+
+.product-card img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+.product-name {
+    font-size: 1.1em; /* Tamaño del texto para el nombre del producto */
+    color: #333; /* Color del texto */
+    margin: 10px 0 5px; /* Espaciado superior e inferior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.product-price {
+    font-size: 0.9em; /* Tamaño del texto para el precio */
+    color: #4CAF50; /* Color verde para destacar */
+    margin: 0; /* Sin márgenes */
+}
